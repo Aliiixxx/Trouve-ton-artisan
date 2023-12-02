@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const LegalCookies = () => {
-  return (
-    <div>
-     
-    </div>
-  );
+  return <div></div>;
 };
 
 export default LegalCookies;
