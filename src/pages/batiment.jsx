@@ -31,10 +31,11 @@ const Batiment = ({ artisans, searchResults }) => {
                   >
                     <h5 className="card-title text-dark">{artisan.name}</h5>
                     <p className="card-text text-dark">
-                    <strong className="text-dark">
+                      <strong className="text-dark">
                         Note: {artisan.note}{" "}
                         <img src={stars} alt="stars" className="stars-image" />
-                      </strong> <br />
+                      </strong>{" "}
+                      <br />
                       <strong>Spécialité:</strong> {artisan.specialty} <br />
                       <strong>Localisation:</strong> {artisan.location}
                     </p>

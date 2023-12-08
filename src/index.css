@@ -84,8 +84,7 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-
-  header{
+  header {
     padding-left: 120px;
     padding-right: 120px;
   }

@@ -31,28 +31,27 @@ const ArtisanDetail = () => {
       <div className="card w-50 mt-5">
         <div className="card-body">
           <h1>{artisan.name}</h1>
-          <section className="d-flex flex-column">
-            <p className="text-dark">
-              <strong>Note:</strong> {artisan.note}{" "}
-              <img src={stars} alt="stars" className="stars-image" />
-            </p>
-            <p>
-              <strong>Spécialité:</strong> {artisan.specialty}
-            </p>
-            <p>
-              <strong>Localisation:</strong> {artisan.location}
-            </p>
-            <p>
-              <strong>A propos:</strong> {artisan.about}
-            </p>
-            <p>
-              <strong>Catégorie:</strong> {artisan.category}
-            </p>
-            <p>
-              <strong>Site Web:</strong>{" "}
-              <a href={artisan.website}>{artisan.website}</a>
-            </p>
-          </section>
+
+          <p className="text-dark">
+            <strong>Note:</strong> {artisan.note}{" "}
+            <img src={stars} alt="stars" className="stars-image" />
+          </p>
+          <p>
+            <strong>Spécialité:</strong> {artisan.specialty}
+          </p>
+          <p>
+            <strong>Localisation:</strong> {artisan.location}
+          </p>
+          <p>
+            <strong>A propos:</strong> {artisan.about}
+          </p>
+          <p>
+            <strong>Catégorie:</strong> {artisan.category}
+          </p>
+          <p>
+            <strong>Site Web:</strong>{" "}
+            <a href={artisan.website}>{artisan.website}</a>
+          </p>
         </div>
       </div>
       <div className="mainPArt2 d-flex flex-column align-items-center w-100">
