@@ -34,8 +34,8 @@ body {
 /* -------------------- */
 
 header {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.0793474);
   padding-bottom: 1rem;
 }
@@ -84,6 +84,12 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+
+  header{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
   .navbar-toggler,
   #boutonMobil {
     display: none;

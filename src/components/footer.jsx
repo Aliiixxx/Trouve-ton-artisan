@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="barre-centree"></div>
       <div>
-        <ul className="legalMentions d-flex">
+        <ul className="legalMentions d-flex justify-content-center">
           <li>
             <Link to="/legal/mentions" className="legal-mentions">
               Mentions Légales
